@@ -24,6 +24,7 @@ button {
   outline: none;
   background: none;
   cursor: initial;
+  width: 100%;
 }
 
 body {
@@ -83,8 +84,16 @@ form h4 {
   margin-top: 10px;
 }
 
-.greeting .title input {
-  font-size: 1.125rem;
+.greeting {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.greeting input {
+  font-size: 1.3rem;
+  font-weight: 900;
   text-transform: uppercase;
 }
 
